@@ -1,4 +1,4 @@
-package com.oily.block.advblocks;
+package com.link.oiledup.block.advblocks;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;

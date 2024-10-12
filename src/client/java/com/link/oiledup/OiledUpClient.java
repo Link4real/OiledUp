@@ -1,6 +1,6 @@
-package com.oily;
+package com.link.oiledup;
 
-import com.oily.block.ModBlocks;
+import com.link.oiledup.block.ModBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;

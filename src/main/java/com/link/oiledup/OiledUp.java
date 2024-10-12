@@ -1,7 +1,7 @@
-package com.oily;
+package com.link.oiledup;
 
-import com.oily.block.ModBlocks;
-import com.oily.item.ModItems;
+import com.link.oiledup.item.ModItems;
+import com.link.oiledup.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;

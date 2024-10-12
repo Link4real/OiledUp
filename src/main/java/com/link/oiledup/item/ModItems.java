@@ -1,5 +1,5 @@
-package com.oily.item;
-import com.oily.OiledUp;
+package com.link.oiledup.item;
+import com.link.oiledup.OiledUp;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;

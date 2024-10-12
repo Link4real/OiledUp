@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.oily.mixin.client",
+	"package": "com.link.oiledup.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"

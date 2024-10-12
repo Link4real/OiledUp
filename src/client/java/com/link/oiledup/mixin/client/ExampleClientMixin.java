@@ -1,4 +1,4 @@
-package com.oily.mixin.client;
+package com.link.oiledup.mixin.client;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;

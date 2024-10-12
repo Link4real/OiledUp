@@ -17,10 +17,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.oily.OiledUp"
+			"com.link.oiledup.OiledUp"
 		],
 		"client": [
-			"com.oily.OiledUpClient"
+			"com.link.oiledup.OiledUpClient"
 		]
 	},
 	"mixins": [
