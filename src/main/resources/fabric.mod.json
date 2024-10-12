@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "oiled-up",
+	"version": "${version}",
+	"name": "Oiled Up",
+	"description": "Are you oiled up already???",
+	"authors": [
+		"1vento",
+		"Link4real"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/oiled-up/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.oily.OiledUp"
+		],
+		"client": [
+			"com.oily.OiledUpClient"
+		]
+	},
+	"mixins": [
+		"oiled-up.mixins.json",
+		{
+			"config": "oiled-up.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
