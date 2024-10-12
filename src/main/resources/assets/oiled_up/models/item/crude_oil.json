@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "oiled_up:item/crude_oil"
+  }
+}

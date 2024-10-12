@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"oiled-up" {
+		"oiled_up" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "hanging=true,waterlogged=true": {
+      "model": "oiled_up:block/oil_lamp_hanging"
+    },
+    "hanging=true,waterlogged=false": {
+      "model": "oiled_up:block/oil_lamp_hanging"
+    },
+    "hanging=false,waterlogged=true": {
+      "model": "oiled_up:block/oil_lamp"
+    },
+    "hanging=false,waterlogged=false": {
+      "model": "oiled_up:block/oil_lamp"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "oiled-up",
+	"id": "oiled_up",
 	"version": "${version}",
 	"name": "Oiled Up",
 	"description": "Are you oiled up already???",
@@ -13,7 +13,7 @@
 		"sources": ""
 	},
 	"license": "MIT",
-	"icon": "assets/oiled-up/icon.png",
+	"icon": "assets/oiled_up/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -24,9 +24,9 @@
 		]
 	},
 	"mixins": [
-		"oiled-up.mixins.json",
+		"oiled_up.mixins.json",
 		{
-			"config": "oiled-up.client.mixins.json",
+			"config": "oiled_up.client.mixins.json",
 			"environment": "client"
 		}
 	],
