@@ -2,5 +2,7 @@
   "itemgroup.oiled_up.oiled_up_item_group": "Oiled Up",
   "item.oiled_up.plastic": "Plastic",
   "item.oiled_up.crude_oil": "Crude Oil",
-  "block.oiled_up.oil_lamp": "Oil Lamp"
+  "block.oiled_up.oil_lamp": "Oil Lamp",
+  "item.oiled_up.coke": "Coke",
+  "block.oiled_up.refinery": "Refinery"
 }

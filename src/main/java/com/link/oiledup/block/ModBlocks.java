@@ -22,7 +22,10 @@ public class ModBlocks {
     }
 
     public static final Block OIL_LAMP = registerBlock("oil_lamp",
-            new OilLampBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+            new OilLampBlock(AbstractBlock.Settings.create().strength(1f)));
+
+    public static final Block REFINERY = registerBlock("refinery",
+            new Block(AbstractBlock.Settings.create().strength(1f)));
 
     public static void registerModBlocks() {
     }
