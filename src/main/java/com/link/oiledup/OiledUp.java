@@ -29,6 +29,7 @@ public class OiledUp implements ModInitializer {
 						entries.add(ModBlocks.OIL_LAMP);
 						entries.add(ModItems.COKE);
 						entries.add(ModBlocks.REFINERY);
+						entries.add(ModItems.DETECTOR);
 					}).build());
 
 	@Override

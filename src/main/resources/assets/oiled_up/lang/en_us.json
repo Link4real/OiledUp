@@ -4,5 +4,6 @@
   "item.oiled_up.crude_oil": "Crude Oil",
   "block.oiled_up.oil_lamp": "Oil Lamp",
   "item.oiled_up.coke": "Coke",
-  "block.oiled_up.refinery": "Refinery"
+  "block.oiled_up.refinery": "Refinery",
+  "item.oiled_up.detector": "Detector"
 }

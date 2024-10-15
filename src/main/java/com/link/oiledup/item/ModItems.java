@@ -16,6 +16,7 @@ public class ModItems {
     public static final Item PLASTIC = registerItem("plastic", new Item(new Item.Settings()));
     public static final Item CRUDE_OIL = registerItem("crude_oil", new Item(new Item.Settings()));
     public static final Item COKE = registerItem("coke", new Item(new Item.Settings()));
+    public static final Item DETECTOR = registerItem("detector", new Item(new Item.Settings()));
 
 
     public static void registerModItems() {
