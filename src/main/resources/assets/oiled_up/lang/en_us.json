@@ -5,5 +5,8 @@
   "block.oiled_up.oil_lamp": "Oil Lamp",
   "item.oiled_up.coke": "Coke",
   "block.oiled_up.refinery": "Refinery",
-  "item.oiled_up.detector": "Detector"
+  "item.oiled_up.detector": "Detector",
+  "item.oiled_up.rubber_chicken": "Rubber Chicken",
+  "sounds.oiled_up.rubber_chicken_scream": "Rubber Chicken Screams",
+  "sounds.oiled_up.detector_ping": "Detector used"
 }

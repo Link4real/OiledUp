@@ -10,6 +10,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+import java.util.function.ToIntFunction;
+
 public class ModBlocks {
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -22,11 +24,12 @@ public class ModBlocks {
     }
 
     public static final Block OIL_LAMP = registerBlock("oil_lamp",
-            new OilLampBlock(AbstractBlock.Settings.create().strength(1f)));
+            new OilLampBlock(AbstractBlock.Settings.create().strength(1f).luminance(value -> 15)));
 
     public static final Block REFINERY = registerBlock("refinery",
             new Block(AbstractBlock.Settings.create().strength(1f)));
 
     public static void registerModBlocks() {
+        OiledUp.LOGGER.info("Registering Blocks for " + OiledUp.MOD_ID);
     }
 }

@@ -2,6 +2,7 @@ package com.link.oiledup;
 
 import com.link.oiledup.item.ModItems;
 import com.link.oiledup.block.ModBlocks;
+import com.link.oiledup.sounds.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -30,12 +31,14 @@ public class OiledUp implements ModInitializer {
 						entries.add(ModItems.COKE);
 						entries.add(ModBlocks.REFINERY);
 						entries.add(ModItems.DETECTOR);
+						entries.add(ModItems.RUBBER_CHICKEN);
 					}).build());
 
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModSounds.registerSounds();
 		FuelRegistry.INSTANCE.add(ModItems.COKE, 2000);
 		LOGGER.info("Oiled Up is loaded");
 	}

@@ -1,0 +1,15 @@
+{
+  "rubber_chicken_scream": {
+    "subtitle": "sounds.oiled_up.rubber_chicken_scream",
+    "sounds": [
+      "oiled_up:rubber_chicken_scream"
+    ]
+  },
+
+  "detector_ping": {
+    "subtitle": "sounds.oiled_up.detector_ping",
+    "sounds": [
+      "oiled_up:detector_ping"
+    ]
+  }
+}
