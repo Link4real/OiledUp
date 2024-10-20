@@ -9,7 +9,5 @@ public class OiledUpClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OIL_LAMP, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.REFINERY, RenderLayer.getTranslucent());
-		
 	}
 }

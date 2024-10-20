@@ -18,7 +18,7 @@ import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 import org.jetbrains.annotations.Nullable;
 public class OilLampBlock extends Block implements Waterloggable {
-    public static final MapCodec<LanternBlock> CODEC = createCodec(LanternBlock::new);
+    public static final MapCodec<OilLampBlock> CODEC = createCodec(OilLampBlock::new);
     public static final BooleanProperty HANGING = Properties.HANGING;
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
     protected static final VoxelShape STANDING_SHAPE = VoxelShapes.union(
@@ -29,7 +29,7 @@ public class OilLampBlock extends Block implements Waterloggable {
     );
 
     @Override
-    public MapCodec<LanternBlock> getCodec() {
+    public MapCodec<OilLampBlock> getCodec() {
         return CODEC;
     }
 

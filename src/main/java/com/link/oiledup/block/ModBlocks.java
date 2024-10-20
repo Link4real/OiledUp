@@ -8,6 +8,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 import java.util.function.ToIntFunction;
@@ -24,10 +25,10 @@ public class ModBlocks {
     }
 
     public static final Block OIL_LAMP = registerBlock("oil_lamp",
-            new OilLampBlock(AbstractBlock.Settings.create().strength(1f).luminance(value -> 15)));
+            new OilLampBlock(AbstractBlock.Settings.create().strength(1f).luminance(value -> 15).sounds(BlockSoundGroup.LANTERN)));
 
     public static final Block REFINERY = registerBlock("refinery",
-            new Block(AbstractBlock.Settings.create().strength(1f)));
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.LODESTONE)));
 
     public static void registerModBlocks() {
         OiledUp.LOGGER.info("Registering Blocks for " + OiledUp.MOD_ID);
